@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QBackWindow</class>
+ <widget class="QDialog" name="QBackWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>340</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtGuiClass</string>
+  </property>
+  <widget class="QPushButton" name="button_nextpage">
+   <property name="geometry">
+    <rect>
+     <x>296</x>
+     <y>496</y>
+     <width>44</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="brow" native="true">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>4</y>
+     <width>64</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>brow</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_exit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>0</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>exit</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="central_layout" native="true">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>33</y>
+     <width>294</width>
+     <height>424</height>
+    </rect>
+   </property>
+   <widget class="QListWidget" name="list_container">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>220</y>
+      <width>210</width>
+      <height>170</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button_nextpage</sender>
+   <signal>clicked()</signal>
+   <receiver>QBackWindow</receiver>
+   <slot>onBtnRotate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>315</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>527</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_exit</sender>
+   <signal>clicked()</signal>
+   <receiver>QBackWindow</receiver>
+   <slot>onBtnExit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>218</x>
+     <y>21</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onBtnExit()</slot>
+ </slots>
+</ui>

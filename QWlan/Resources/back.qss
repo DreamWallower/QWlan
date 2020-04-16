@@ -1,0 +1,43 @@
+QBackWindow {
+    background-color: #E7EEF6;
+    border-radius: 8px;
+    border:1px solid #BFBFBF;
+}
+
+QWidget#brow {
+    background-image: url(:/QWlan/Resources/brow.png);
+}
+
+QPushButton#button_exit {
+    border: none;
+    background-image: url(:/QWlan/Resources/exit0.png);
+}
+
+QPushButton#button_exit::hover {
+    border: none;
+    background-image: url(:/QWlan/Resources/exit1.png);
+}
+
+QPushButton#button_nextpage {
+    border: none;
+    background-image: url(:/QWlan/Resources/nextpage0.png);
+}
+
+QPushButton#button_nextpage::hover {
+    border: none;
+    background-image: url(:/QWlan/Resources/nextpage1.png);
+}
+
+QWidget#central_layout {
+    background-image: url(:/QWlan/Resources/central-layout.png);
+}
+
+QListWidget#list_container {
+    border: none;
+    background-color: transparent;
+}
+
+QListWidget::item:disabled
+{
+    background: transparent;
+}

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/QWlan">
+        <file>Resources/close.png</file>
+        <file>Resources/icon0.png</file>
+        <file>Resources/icon1.png</file>
+        <file>Resources/icon2.png</file>
+        <file>Resources/icon3.png</file>
+        <file>Resources/icon4.png</file>
+        <file>Resources/input.png</file>
+        <file>Resources/start.png</file>
+        <file>Resources/back.qss</file>
+        <file>Resources/front.qss</file>
+        <file>Resources/brow.png</file>
+        <file>Resources/nextpage0.png</file>
+        <file>Resources/nextpage1.png</file>
+        <file>Resources/exit0.png</file>
+        <file>Resources/exit1.png</file>
+        <file>Resources/central-layout.png</file>
+        <file>Resources/logo.ico</file>
+    </qresource>
+</RCC>

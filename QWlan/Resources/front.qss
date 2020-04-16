@@ -1,0 +1,81 @@
+QFrontWindow {
+    background-color: #E7EEF6;
+    border-radius: 8px;
+    border:1px solid #BFBFBF;
+}
+
+QWidget#brow {
+    background-image: url(:/QWlan/Resources/brow.png);
+}
+
+QPushButton#button_exit {
+    border: none;
+    background-image: url(:/QWlan/Resources/exit0.png);
+}
+
+QPushButton#button_exit::hover {
+    border: none;
+    background-image: url(:/QWlan/Resources/exit1.png);
+}
+
+QPushButton#button_nextpage {
+    border: none;
+    background-image: url(:/QWlan/Resources/nextpage0.png);
+}
+
+QPushButton#button_nextpage::hover {
+    border: none;
+    background-image: url(:/QWlan/Resources/nextpage1.png);
+}
+
+QWifiIcon, QWifiIcon[whatsThis="ready"] {
+    background-image: url(:/QWlan/Resources/icon0.png);
+}
+
+QWifiIcon[whatsThis="pending-0"] {
+    background-image: url(:/QWlan/Resources/icon0.png);
+}
+
+QWifiIcon[whatsThis="pending-1"] {
+    background-image: url(:/QWlan/Resources/icon1.png);
+}
+
+QWifiIcon[whatsThis="pending-2"] {
+    background-image: url(:/QWlan/Resources/icon2.png);
+}
+
+QWifiIcon[whatsThis="pending-3"] {
+    background-image: url(:/QWlan/Resources/icon3.png);
+}
+
+QWifiIcon[whatsThis="success"] {
+    background-image: url(:/QWlan/Resources/icon3.png);
+}
+
+QWifiIcon[whatsThis="failed"] {
+    background-image: url(:/QWlan/Resources/icon4.png);
+}
+
+QLineEdit#lineEdit_name, QLineEdit#lineEdit_password {
+    color: #959595;
+    padding-top: 5px;
+    pading-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #E7EEF6;
+    background-image: url(:/QWlan/Resources/input.png);
+    border: none;
+}
+
+QPushButton#button_start_or_stop, QPushButton#button_start_or_stop[whatsThis="start"] {
+    background-image: url(:/QWlan/Resources/start.png);
+}
+
+QPushButton#button_start_or_stop[whatsThis="close"] {
+    background-image: url(:/QWlan/Resources/close.png);
+}
+
+QPushButton#button_start_or_stop {
+    border: none;
+    background-position: center;
+}
